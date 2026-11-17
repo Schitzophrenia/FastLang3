@@ -1,0 +1,6 @@
+/* Shared page background, copied from the Courses page (soft grey with the faint language-letter pattern).
+   Loaded last on every page so it wins over each page's own stylesheet. Cards and the hero keep their own look. */
+body,
+.page_banner,.page_section,
+.language,.courses,.instructors,.events,.blog{background:#f8f8f8 url(../images/courses_pattern.svg) repeat}
+.pc_section{background:transparent}
